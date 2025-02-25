@@ -37,5 +37,35 @@ class ServiceTableSeeder extends Seeder
                 'title' => 'Table four',
             ]
         );
+        ServiceTable::create(
+            [
+                'title' => 'Table five',
+            ]
+        );
+        ServiceTable::create(
+            [
+                'title' => 'Table six',
+            ]
+        );
+        ServiceTable::create(
+            [
+                'title' => 'Table seven',
+            ]
+        );
+        ServiceTable::create(
+            [
+                'title' => 'Table eight',
+            ]
+        );
+        ServiceTable::create(
+            [
+                'title' => 'Table nine',
+            ]
+        );
+        ServiceTable::create(
+            [
+                'title' => 'Table ten',
+            ]
+        );
     }
 }

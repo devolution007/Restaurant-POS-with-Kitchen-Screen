@@ -20,9 +20,16 @@ class PaymentMethodSeeder extends Seeder
             );
             PaymentMethod::create(
                 [
-                    'title' => 'Card proccessing',
+                    'title' => 'Credit/Debit Card',
                 ]
             );
+            PaymentMethod::create(
+                [
+                    'title' => 'Bank Transfer',
+                ]
+            );
+            
+
         }
     }
 }

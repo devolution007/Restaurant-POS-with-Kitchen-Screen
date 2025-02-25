@@ -18,12 +18,12 @@ class SettingSeeder extends Seeder
         }
         Setting::create(
             [
-                'app_name' => 'Restaurant POS',
+                'app_name' => 'DC Restaurant POS',
                 'app_https' => false,
                 'app_url' => config('app.url'),
-                'app_phone' => '7866718114',
+                'app_phone' => '0331-2738475',
                 'app_date_format' => 'd-m-Y H:s:i',
-                'app_address' => '4466 Scheuvront Drive Centennial, CO 80112',
+                'app_address' => 'Block K, North Nazimabad, Karachi, Pakistan',
                 'mail_from_name' => 'Boilerplate system',
                 'mail_from_address' => 'set_your_mail@your_domain.com',
                 'mail_mailer' => 'log',

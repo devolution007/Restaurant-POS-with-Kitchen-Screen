@@ -18,7 +18,7 @@ class CustomerSeeder extends Seeder
             Customer::create(
                 [
                     'uuid' => Str::orderedUuid(),
-                    'name' => 'Walking Customer',
+                    'name' => 'Walk-in-Customer',
                 ]
             );
         }

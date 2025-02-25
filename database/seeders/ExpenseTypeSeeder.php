@@ -17,12 +17,12 @@ class ExpenseTypeSeeder extends Seeder
         if (ExpenseType::count() === 0) {
             ExpenseType::create(
                 [
-                    'title' => 'Kichen expense',
+                    'title' => 'Kitchen expense',
                 ]
             );
             ExpenseType::create(
                 [
-                    'title' => 'Human resource expense',
+                    'title' => 'Staff expense',
                 ]
             );
             ExpenseType::create(
