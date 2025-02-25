@@ -32,7 +32,7 @@ class SettingSeeder extends Seeder
                 'mail_password' => null,
                 'mail_port' => 1025,
                 'mail_encryption' => null,
-                'tax_rate' => 17,
+                'tax_rate' => 0,
             ]
         );
     }
